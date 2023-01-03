@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+
+body{
+  margin: 0;
+  padding: 80px;
+  height: 100vh;
+  background: rgb(171, 69, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bkRuido{
+  background-image: url('./components/img/ruido.gif')  ;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 438px;
+  transform: rotate(5deg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image{
+   
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#slide_1{
+   left: 0px; 
+   position: absolute;
+}
+#slide_2{
+  
+   position: absolute;
+}
+#slide_3{
+   position: absolute;
+    
 }
 
-.App-link {
-  color: #61dafb;
+#slide_4{
+   position: absolute;
+    
+}
+#ruido{
+   position: absolute;
+  
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#signal{
+  
+  top:0px;
+   position: absolute;
 }
+
+
